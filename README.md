@@ -1,9 +1,10 @@
-# Vue Count Down Clock
+# Vue Count Down Clock Component
+## Note: The clock was built for use with Vuetify so some of the Vuetify classes are in play but can be easily replaced with whatever you're using.
 
-### Requires no dependencies and is ready to drop into any Vue or Nuxt project.
+---
 
-### Available props:
-- "date"
+Available props:
+- "date" (required format: "2021-09-27T09:00:00Z")
 - "numberColor"
 - "textColor"
 
